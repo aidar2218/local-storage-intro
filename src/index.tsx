@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import LocalStorage from './LocalStorage';
 import reportWebVitals from './reportWebVitals';
+import LocalStorageWithUseEffect from "./LocalStorageWithUseEffect";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    <LocalStorage />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

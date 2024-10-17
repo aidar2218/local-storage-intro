@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.module.css';
 import s from './App.module.css';
 
-function App() {
+function LocalStorage() {
 
     const [value, setValue] = useState(0);
 
@@ -54,4 +54,4 @@ function App() {
     );
 }
 
-export default App;
+export default LocalStorage;
